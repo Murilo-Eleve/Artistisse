@@ -40,7 +40,7 @@ get_header();
     </section>
 
     <section class="style-section">
-        <h4>QUAL O SEU ESTILO?</h4>
+        <h4>QUAL O SEU ESTILO? xx</h4>
     </section>
 </div>
 
