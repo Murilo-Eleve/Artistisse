@@ -1,0 +1,85 @@
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.product-image {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.product-summary {
+    flex: 1;
+    background-color: #1e1e1e;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.product-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.product-variations {
+    margin-top: 20px;
+}
+
+.product-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-buy, .btn-add-to-cart {
+    background-color: #6b44ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.product-details {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+}
+
+.product-tabs {
+    flex: 2;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product-characteristics, .product-info {
+    margin-bottom: 20px;
+}
+
+.product-artist {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product-artist img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product-artist p {
+    margin-top: 10px;
+    font-size: 16px;
+}

@@ -1,0 +1,96 @@
+.categories-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.categories-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: 18px;
+    padding: 20px;
+    margin-left: 0px;
+}
+
+.category-link {
+    display: inline-block;
+    padding: 3px 19px;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 36px;
+    font-weight: bold;
+    border: 2px solid #000;
+   
+}
+
+.category-link:hover {
+    background-color:#000;;
+    color:#6f6fdd;;
+}
+
+
+.products-carousel {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Define 4 colunas de largura igual */
+    gap: 20px; /* Espaçamento entre os itens */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-item a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-item h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-item p {
+    font-size: 1em;
+    color: #888;
+    margin: 0 0 10px;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1200px) {
+    .products-carousel {
+        grid-template-columns: repeat(3, 1fr); /* 3 colunas em telas menores */
+    }
+}
+
+@media (max-width: 900px) {
+    .products-carousel {
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas em telas ainda menores */
+    }
+}
+
+@media (max-width: 600px) {
+    .products-carousel {
+        grid-template-columns: 1fr; /* 1 coluna em telas muito pequenas */
+    }
+}
+.see-more-section {
+    text-align: center;
+    margin: 40px 0; /* Ajuste o espaço ao redor do botão conforme necessário */
+}
